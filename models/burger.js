@@ -13,7 +13,8 @@ module.exports = function(sequelize, DataTypes) {
            type: Sequelize.STRING,
            isDate: True,
            allowNull: false
-  }
+  },
+  
   });
   return Burger;
   };
